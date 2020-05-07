@@ -55,10 +55,15 @@ img{
     display: none;
   }
 
-  .ipad:hover cuore{
+  .ipad:hover .cuore{
     text-align: center;
     color: red;
     display: block;
+  }
 
+  .iphone:hover .cuore{
+    text-align: center;
+    color: red;
+    display: block;
 
   }
