@@ -53,6 +53,7 @@ img{
     text-align: center;
     color: red;
     display: none;
+
   }
 
   .ipad:hover .cuore{
@@ -62,6 +63,13 @@ img{
   }
 
   .iphone:hover .cuore{
+    text-align: center;
+    color: red;
+    display: block;
+
+  }
+
+  .cuffie:hover .cuore{
     text-align: center;
     color: red;
     display: block;
