@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenitore{
+   position: relative;
+   width: auto;
+   height: auto;
+  }
+
+
+.immagini{
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 15px;
+}
+
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+
+
+  .sconto{
+    position: absolute;
+    background-color: green;
+    width: auto;
+    height: auto;
+    top: 0px;
+    right: 0px
+
+
+
+  }
+
+  .sconto2{
+    position: absolute;
+    background-color: red;
+    width: auto;
+    height: auto;
+    top: 0px;
+    right: 0px
+
+  }
+
+  .cuore{
+    text-align: center;
+    color: red;
+    display: none;
+  }
+
+  .ipad:hover cuore{
+    text-align: center;
+    color: red;
+    display: block;
+
+
+  }
