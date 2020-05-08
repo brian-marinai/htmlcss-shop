@@ -31,8 +31,6 @@ img{
   .sconto{
     position: absolute;
     background-color: green;
-    width: auto;
-    height: auto;
     top: 0px;
     right: 0px
 
@@ -52,14 +50,13 @@ img{
 
   .cuore{
     position: absolute;
-    left: 95px;
+    right: 95px;
     color: red;
     display: none;
 
   }
 
   .immagini:hover .cuore{
-    text-align: center;
     color: red;
     display: block;
   }
